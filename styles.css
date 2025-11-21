@@ -1639,8 +1639,433 @@ footer {
     margin-left: 1rem;
 }
 
+/* ===== CCCE PAGE STYLES ===== */
+.ccce-hero {
+    background: linear-gradient(135deg, #1a3a52 0%, #2c5f7d 100%);
+}
+
+.proposal-badge {
+    display: inline-block;
+    background-color: rgba(139, 115, 85, 0.9);
+    border: 2px solid var(--accent-gold);
+    padding: 0.75rem 2rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.ccce-introduction {
+    background-color: var(--white);
+}
+
+.intro-content {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.intro-content h3 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.vision-statement {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto 3rem;
+    padding: 2rem;
+    background-color: var(--light-gray);
+    border-left: 4px solid var(--accent-gold);
+    border-radius: 4px;
+}
+
+.intro-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.intro-card {
+    background-color: var(--light-gray);
+    border: 1px solid var(--border-color);
+    border-top: 4px solid var(--accent-gold);
+    border-radius: 4px;
+    padding: 2rem;
+}
+
+.intro-card h4 {
+    color: var(--primary-navy);
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.international-models {
+    background-color: var(--light-gray);
+}
+
+.section-intro {
+    text-align: center;
+    font-size: 1.1rem;
+    max-width: 900px;
+    margin: 0 auto 3rem;
+}
+
+.models-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.model-card {
+    background-color: var(--white);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    padding: 2rem;
+}
+
+.model-card h3 {
+    color: var(--primary-navy);
+    margin-bottom: 0.5rem;
+}
+
+.model-location {
+    color: var(--accent-gold);
+    font-style: italic;
+    margin-bottom: 1.5rem;
+}
+
+.model-details h4 {
+    color: var(--accent-gold);
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.model-details ul {
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.model-details ul li {
+    margin-bottom: 0.75rem;
+    line-height: 1.6;
+}
+
+.models-insight {
+    background-color: var(--white);
+    border: 2px solid var(--accent-gold);
+    border-radius: 4px;
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.models-insight h4 {
+    color: var(--primary-navy);
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.models-insight ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.models-insight ul li {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: var(--light-gray);
+    border-left: 4px solid var(--accent-gold);
+    border-radius: 4px;
+}
+
+.models-insight ul li strong {
+    color: var(--accent-gold);
+}
+
+.canadian-sport-model {
+    background-color: var(--white);
+}
+
+.framework-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.framework-card {
+    background-color: var(--light-gray);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    padding: 2rem;
+}
+
+.framework-card h3 {
+    color: var(--primary-navy);
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--accent-gold);
+}
+
+.framework-features {
+    margin-top: 1.5rem;
+}
+
+.framework-features h4 {
+    color: var(--accent-gold);
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.framework-features ul {
+    padding-left: 1.5rem;
+}
+
+.framework-features ul li {
+    margin-bottom: 0.75rem;
+}
+
+.ccce-proposal {
+    background-color: var(--light-gray);
+}
+
+.proposal-overview {
+    max-width: 900px;
+    margin: 0 auto 3rem;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.proposal-components {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.component-card {
+    background-color: var(--white);
+    border: 1px solid var(--border-color);
+    border-left: 4px solid var(--accent-gold);
+    border-radius: 4px;
+    padding: 2rem;
+}
+
+.component-card h3 {
+    color: var(--primary-navy);
+    margin-bottom: 0.5rem;
+}
+
+.component-card h4 {
+    color: var(--accent-gold);
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.component-card ul {
+    padding-left: 1.5rem;
+}
+
+.component-card ul li {
+    margin-bottom: 0.75rem;
+    line-height: 1.6;
+}
+
+.component-card ul li strong {
+    color: var(--primary-navy);
+}
+
+.implementation {
+    background-color: var(--white);
+}
+
+.implementation-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.implementation-card {
+    background-color: var(--light-gray);
+    border: 1px solid var(--border-color);
+    border-top: 4px solid var(--accent-gold);
+    border-radius: 4px;
+    padding: 2rem;
+}
+
+.implementation-card h3 {
+    color: var(--primary-navy);
+    margin-bottom: 1.5rem;
+}
+
+.implementation-card p {
+    margin-bottom: 1rem;
+}
+
+.implementation-card strong {
+    color: var(--accent-gold);
+}
+
+.implementation-card ul {
+    padding-left: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.implementation-card ul li {
+    margin-bottom: 0.5rem;
+}
+
+.benefits {
+    background-color: var(--light-gray);
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.benefit-item {
+    background-color: var(--white);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.benefit-item h3 {
+    color: var(--accent-gold);
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.benefit-item p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+.next-steps {
+    background-color: var(--white);
+}
+
+.phases-timeline {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.phase-card {
+    background-color: var(--light-gray);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    padding: 2rem;
+    position: relative;
+}
+
+.phase-number {
+    background-color: var(--accent-gold);
+    color: var(--white);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0 auto 1.5rem;
+}
+
+.phase-card h3 {
+    color: var(--primary-navy);
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.phase-card ul {
+    padding-left: 1.5rem;
+}
+
+.phase-card ul li {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.fvcs-role {
+    background-color: var(--light-gray);
+}
+
+.role-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.role-content > p {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.role-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.role-card {
+    background-color: var(--white);
+    border: 1px solid var(--border-color);
+    border-left: 4px solid var(--accent-gold);
+    border-radius: 4px;
+    padding: 2rem;
+}
+
+.role-card h3 {
+    color: var(--primary-navy);
+    margin-bottom: 1rem;
+}
+
+.ccce-cta {
+    background: linear-gradient(135deg, var(--primary-navy) 0%, var(--secondary-navy) 100%);
+    color: var(--white);
+}
+
+.ccce-cta .cta-content {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.ccce-cta h2 {
+    color: var(--white);
+}
+
+.ccce-cta p {
+    color: var(--light-gray);
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.ccce-cta .btn-secondary {
+    margin-left: 1rem;
+}
+
 @media print {
-    header, footer, nav, .join, .join-cta, .membership-cta, .programs-cta, .contact-cta, .course-cta {
+    header, footer, nav, .join, .join-cta, .membership-cta, .programs-cta, .contact-cta, .course-cta, .ccce-cta {
         display: none;
     }
 
