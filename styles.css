@@ -1642,6 +1642,12 @@ footer {
 /* ===== CCCE PAGE STYLES ===== */
 .ccce-hero {
     background: linear-gradient(135deg, #1a3a52 0%, #2c5f7d 100%);
+    color: white;
+}
+
+.ccce-hero h2,
+.ccce-hero .lead {
+    color: white;
 }
 
 .proposal-badge {
