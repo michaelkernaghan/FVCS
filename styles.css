@@ -2070,8 +2070,356 @@ footer {
     margin-left: 1rem;
 }
 
+/* ===== ORGANIZATIONAL STRUCTURE PAGE STYLES ===== */
+.org-structure-intro {
+    background-color: var(--light-gray);
+    padding: 2rem 0;
+}
+
+.org-structure-intro .intro-content {
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: 1.05rem;
+    line-height: 1.8;
+}
+
+.wcf-overview,
+.canada-structure {
+    padding: 3rem 0;
+}
+
+.wcf-content,
+.canada-overview {
+    margin-bottom: 2rem;
+}
+
+.wcf-mission {
+    background-color: var(--light-gray);
+    border-left: 4px solid var(--accent-gold);
+    padding: 1.5rem;
+    margin: 2rem 0;
+}
+
+.wcf-mission h3 {
+    color: var(--primary-navy);
+    margin-bottom: 1rem;
+}
+
+.wcf-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.stat-card {
+    background-color: var(--primary-navy);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.stat-number {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--accent-gold);
+    margin-bottom: 0.5rem;
+}
+
+.stat-label {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.membership-categories {
+    margin: 3rem 0;
+}
+
+.category-box {
+    background-color: var(--white);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.category-box h4 {
+    color: var(--primary-navy);
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--accent-gold);
+}
+
+.wcf-governance {
+    background-color: var(--light-gray);
+    padding: 2rem;
+    border-radius: 4px;
+    margin-top: 2rem;
+}
+
+.regional-breakdown {
+    background-color: var(--light-gray);
+    padding: 3rem 0;
+}
+
+.region-section {
+    background-color: white;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.region-section h3 {
+    color: var(--primary-navy);
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--accent-gold);
+}
+
+.member-tier {
+    margin-bottom: 1rem;
+}
+
+.member-tier h4 {
+    color: var(--accent-gold);
+    margin-bottom: 0.5rem;
+}
+
+.canada-organizational-model {
+    background-color: var(--light-gray);
+    padding: 1.5rem;
+    border-radius: 4px;
+    margin: 2rem 0;
+}
+
+.hierarchy-diagram {
+    margin: 3rem 0;
+}
+
+.hierarchy-visual {
+    max-width: 800px;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.hierarchy-level {
+    margin: 1rem 0;
+}
+
+.hierarchy-box {
+    display: inline-block;
+    background-color: var(--primary-navy);
+    color: white;
+    padding: 1.5rem 2rem;
+    border-radius: 4px;
+    min-width: 300px;
+}
+
+.hierarchy-box strong {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: white;
+}
+
+.hierarchy-box span {
+    display: block;
+    font-size: 0.95rem;
+    opacity: 0.9;
+}
+
+.hierarchy-box span.note {
+    margin-top: 0.5rem;
+    font-style: italic;
+    opacity: 0.8;
+}
+
+.hierarchy-box.regional-box {
+    background-color: var(--accent-gold);
+    color: var(--primary-navy);
+}
+
+.hierarchy-box.regional-box strong {
+    color: var(--primary-navy);
+}
+
+.hierarchy-connector {
+    font-size: 2rem;
+    color: var(--accent-gold);
+    margin: 0.5rem 0;
+}
+
+.canada-clubs {
+    margin-top: 3rem;
+}
+
+.clubs-by-province {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.province-section {
+    background-color: var(--light-gray);
+    padding: 1.5rem;
+    border-radius: 4px;
+}
+
+.province-section h4 {
+    color: var(--primary-navy);
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--accent-gold);
+}
+
+.province-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.province-section li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.province-section li:last-child {
+    border-bottom: none;
+}
+
+.fvcs-position {
+    background-color: var(--white);
+    padding: 3rem 0;
+}
+
+.position-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.fvcs-role {
+    margin: 2rem 0;
+}
+
+.role-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.role-card {
+    background-color: var(--light-gray);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    padding: 1.5rem;
+}
+
+.role-card h4 {
+    color: var(--primary-navy);
+    margin-bottom: 0.75rem;
+}
+
+.fvcs-members {
+    margin-top: 2rem;
+}
+
+.member-list {
+    margin-top: 1.5rem;
+}
+
+.member-item {
+    background-color: var(--light-gray);
+    border-left: 4px solid var(--accent-gold);
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.member-item h4 {
+    color: var(--primary-navy);
+    margin-bottom: 0.5rem;
+}
+
+.org-benefits {
+    background-color: var(--light-gray);
+    padding: 3rem 0;
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.benefit-card {
+    background-color: white;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    padding: 2rem;
+    text-align: center;
+}
+
+.benefit-card h3 {
+    color: var(--primary-navy);
+    margin-bottom: 1rem;
+}
+
+.resources-section {
+    padding: 3rem 0;
+    background-color: var(--white);
+}
+
+.resource-list {
+    max-width: 700px;
+    margin: 2rem auto;
+}
+
+.resource-list li {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.resource-list li:last-child {
+    border-bottom: none;
+}
+
+.resource-list a {
+    color: var(--primary-navy);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.resource-list a:hover {
+    color: var(--accent-gold);
+}
+
+.page-cta {
+    background: linear-gradient(135deg, var(--primary-navy) 0%, #2c5f7d 100%);
+    color: white;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.page-cta h2 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.page-cta p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.page-cta .btn-secondary {
+    margin-left: 1rem;
+}
+
 @media print {
-    header, footer, nav, .join, .join-cta, .membership-cta, .programs-cta, .contact-cta, .course-cta, .ccce-cta {
+    header, footer, nav, .join, .join-cta, .membership-cta, .programs-cta, .contact-cta, .course-cta, .ccce-cta, .page-cta {
         display: none;
     }
 
