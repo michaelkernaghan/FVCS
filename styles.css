@@ -2313,6 +2313,79 @@ footer {
     border-bottom: none;
 }
 
+/* USA Structure */
+.usa-structure {
+    background-color: var(--light-gray);
+    padding: 3rem 0;
+}
+
+.usa-overview,
+.usa-organizational-model {
+    margin-bottom: 2rem;
+}
+
+.usa-clubs {
+    margin-top: 3rem;
+}
+
+.clubs-by-region {
+    margin-top: 2rem;
+}
+
+.region-section-usa {
+    background-color: var(--white);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.region-section-usa h4 {
+    color: var(--primary-navy);
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--accent-gold);
+}
+
+.region-section-usa h5 {
+    color: var(--accent-gold);
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+.region-section-usa ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.region-section-usa li {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.region-section-usa li:last-child {
+    border-bottom: none;
+}
+
+.club-details {
+    display: block;
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 0.3rem;
+    font-style: italic;
+}
+
+.state-clubs {
+    margin-top: 1rem;
+}
+
+.directory-note {
+    margin-top: 2rem;
+    font-style: italic;
+    color: #666;
+}
+
 .fvcs-position {
     background-color: var(--white);
     padding: 3rem 0;
