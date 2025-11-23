@@ -514,6 +514,29 @@ footer {
     margin: 0.5rem 0;
 }
 
+.info-callout {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background-color: var(--light-gray);
+    border-left: 4px solid var(--accent-gold);
+    border-radius: 4px;
+}
+
+.info-callout p {
+    margin: 0;
+}
+
+.org-structure-link {
+    color: var(--primary-navy);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.org-structure-link:hover {
+    color: var(--accent-gold);
+    text-decoration: underline;
+}
+
 /* Leadership */
 .leadership {
     max-width: 700px;
